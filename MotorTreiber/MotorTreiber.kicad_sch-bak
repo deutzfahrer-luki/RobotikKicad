@@ -1,0 +1,184 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "df4d373a-2fa7-4532-a460-c932d5bd9aaf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 163.83 91.44)
+		(size 46.99 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6219123-c944-4866-971a-b46a1ae0376c")
+		(property "Sheetname" "Treiber1"
+			(at 163.83 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "treiber.kicad_sch"
+			(at 163.83 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "IN_A_1" bidirectional
+			(at 163.83 102.87 180)
+			(uuid "fe1aca06-c089-4add-8101-de50567035e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_A_2" bidirectional
+			(at 163.83 105.41 180)
+			(uuid "aa815de5-f0d6-48a5-8900-765f378a8652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_B_1" bidirectional
+			(at 210.82 102.87 0)
+			(uuid "589ce545-f4ce-4cd6-a107-d5485d506e60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_B_2" bidirectional
+			(at 210.82 107.95 0)
+			(uuid "dd4de48d-9936-43a9-9599-63c30c307407")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" bidirectional
+			(at 163.83 100.33 180)
+			(uuid "4f597851-ced3-4d34-95e6-14397fe04ed8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" bidirectional
+			(at 210.82 100.33 0)
+			(uuid "58f2c5ed-fcb0-4a53-a72b-8da0bdd376c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY" bidirectional
+			(at 163.83 96.52 180)
+			(uuid "e1cf5860-ebab-49df-913c-9f7e35c6cdc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_Motor" input
+			(at 173.99 91.44 90)
+			(uuid "2caa1435-269c-4e43-a654-e5f4f87637ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ECN1_A" output
+			(at 210.82 110.49 0)
+			(uuid "38696a80-da45-4057-9d05-c1d221cfa94d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ECN1_B" output
+			(at 210.82 113.03 0)
+			(uuid "1e9886c0-13a5-4473-b1e6-c894e1b570ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ECN2_A" output
+			(at 171.45 125.73 270)
+			(uuid "9ee26987-cbba-411c-9f3c-285e013318f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ECN2_B" output
+			(at 167.64 125.73 270)
+			(uuid "c0b391a2-a2c5-44dd-a2a3-8bf4298b07f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MotorTreiber"
+				(path "/df4d373a-2fa7-4532-a460-c932d5bd9aaf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
