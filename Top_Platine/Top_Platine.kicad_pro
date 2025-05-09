@@ -446,8 +446,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Robotik"
+    ],
+    "pinned_symbol_libs": [
+      "Robotik"
+    ]
   },
   "meta": {
     "filename": "Top_Platine.kicad_pro",
@@ -489,7 +493,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Top_Platine.step",
       "svg": "",
       "vrml": ""
     },
@@ -608,6 +612,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f9eddfb7-9f4e-4814-b89b-9cecdea203a8",
+      "Root"
+    ],
+    [
+      "7d003288-345a-4c04-ac5a-41602d9002f9",
+      "Kamera1"
+    ],
+    [
+      "a4736fa0-dd3a-413e-9e3c-a01573f8765a",
+      "Tof"
+    ],
+    [
+      "4a0c0bf0-fc48-418f-bd7b-41269867e8f6",
+      "Kamera"
+    ],
+    [
+      "6c6966d1-cda9-459c-af60-53d343a22294",
+      "Kamera2"
+    ]
+  ],
   "text_variables": {}
 }

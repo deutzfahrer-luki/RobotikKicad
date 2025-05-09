@@ -1,4 +1,4 @@
-25231518143953985
+25243745548511959
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65274,6 +65274,55 @@ THT
 0
 4
 2
+JST
+JST-XH-02-PACKAGE-LONG-PAD
+JST XH Connector Long Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 2  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
+
+0
+2
+2
+JST
+JST-XH-03-PACKAGE-LONG-PAD
+JST XH Connector Long Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 3  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
+
+0
+3
+3
+JST
+JST-XH-04-PACKAGE-LONG-PAD
+JST XH Connector Long Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 4  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
+
+0
+4
+4
+JST
+JST-XH-05-PACKAGE-LONG-PAD
+JST XH Connector Long Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 5  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
+
+0
+5
+5
+JST
+JST-XH-06-PACKAGE-LONG-PAD
+JST XH Connector Long Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 6  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
+
+0
+6
+6
+JST
+JST-XH-07-PACKAGE-LONG-PAD
+JST XH Connector Long Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 7  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
+
+0
+7
+7
+JST
+JST-XH-08-PACKAGE-LONG-PAD
+JST XH Connector Long Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 8  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
+
+0
+8
+8
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -92225,33 +92274,33 @@ ARDUINO_MEGA_NO_SILK
 86
 80
 Robotik
-EA OLEDL128-6GGA
-EA OLEDL128-6GGA-2
-Display
+Main Conetor
+
+
 0
-26
-26
+38
+36
+Robotik
+OpenMV_RT1062
+
+
+0
+32
+32
 Robotik
 SSOP-24_5.3x8.2mm_P0.65mm
 24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
 SSOP 0.65
 0
-18
-18
+17
+17
 Robotik
-SocketMotor
+Untitled
 
 
 0
-32
-29
-Robotik
-r
-
-
-0
-0
-0
+8
+8
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html

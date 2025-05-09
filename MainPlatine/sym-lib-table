@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "arduino_mega")(type "KiCad")(uri "/home/lukas/Desktop/Platinen/arduino_mega.kicad_sym")(options "")(descr ""))
+)

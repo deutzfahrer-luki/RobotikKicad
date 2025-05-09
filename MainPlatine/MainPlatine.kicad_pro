@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5,
+        0.9
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +218,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -446,8 +462,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "JST"
+    ],
+    "pinned_symbol_libs": [
+      "RobotikV4"
+    ]
   },
   "meta": {
     "filename": "MainPlatine.kicad_pro",
@@ -489,7 +509,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MainPlatine.step",
       "svg": "",
       "vrml": ""
     },
@@ -626,32 +646,36 @@
       "PowerSupplyUnit"
     ],
     [
-      "fdc0243a-a5a5-4468-9cc0-28e8593b5b3d",
+      "cc08bab7-5b58-4988-96a3-a32e29019015",
       "Treiber1"
     ],
     [
-      "e73857bf-05f8-4db1-9dd6-dfa24c8b2cae",
+      "d531c041-0bbf-46c1-9e17-ec91239c9bac",
       "Treiber2"
     ],
     [
-      "0df11882-2d85-4dca-ba7b-f69dbb9d7361",
+      "d8bad468-1a27-44c2-8297-3d2f1968dea5",
       "Motor1"
     ],
     [
-      "470ae657-6e50-4fa8-9b97-34138efdb176",
+      "05ba44bc-ea1f-4207-adbb-a2ff860ae7b9",
       "Motor2"
     ],
     [
-      "0df11882-2d85-4dca-ba7b-f69dbb9d7361",
+      "d8bad468-1a27-44c2-8297-3d2f1968dea5",
       "Motor1"
     ],
     [
-      "470ae657-6e50-4fa8-9b97-34138efdb176",
+      "05ba44bc-ea1f-4207-adbb-a2ff860ae7b9",
       "Motor2"
     ],
     [
       "b5cdc453-d330-4215-a4bc-cc85e155168a",
       "Sensorik"
+    ],
+    [
+      "fbceb116-5aac-4aa2-86db-9983b1d1f06f",
+      "Encoder_Unit"
     ]
   ],
   "text_variables": {}
