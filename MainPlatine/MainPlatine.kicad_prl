@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -16,21 +16,22 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": true,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": false,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       "vias",
       "footprint_text",
+      "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
@@ -43,11 +44,11 @@
       "bitmaps",
       "pads",
       "zones",
-      "drc_warnings",
+      "drc_exclusions",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffdd7d_575755ff",
     "zone_display_mode": 0
   },
   "git": {
@@ -89,18 +90,18 @@
       11
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      50,
+      52,
+      57,
+      68,
+      118,
+      1220
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

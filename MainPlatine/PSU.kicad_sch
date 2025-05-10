@@ -129,6 +129,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RobotikV4:Spannungswandler"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PSU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Robotik:Spannungswandler"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Spannungswandler_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Spannungswandler_1_1"
+				(pin power_in line
+					(at -13.97 2.54 0)
+					(length 3.81)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "IN+"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -2.54 0)
+					(length 3.81)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "IN-"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 2.54 180)
+					(length 3.81)
+					(name "VOUT+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "OUT+"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -2.54 180)
+					(length 3.81)
+					(name "VOUT-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "OUT-"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 175.26 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a768c1f-58d3-41a7-8453-d385d03baa7d")
 	)
 	(junction
 		(at 148.59 95.25)
@@ -142,6 +284,22 @@
 		(color 0 0 0 0)
 		(uuid "c5c76f06-1ebc-459b-b27b-df06ee42b086")
 	)
+	(junction
+		(at 148.59 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb1c25a-e49e-42d7-bb00-1c8a07270149")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02deb490-7535-4c9d-9f55-68c9f5f1276d")
+	)
 	(wire
 		(pts
 			(xy 148.59 95.25) (xy 148.59 97.79)
@@ -154,7 +312,37 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 168.91 82.55)
+			(xy 171.45 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398c7838-b69a-4f1d-97f3-8cc5e195d5c7")
+	)
+	(wire
+		(pts
+			(xy 171.45 82.55) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc4c1f6-ec8c-4f03-8698-e949fcac5a62")
+	)
+	(wire
+		(pts
+			(xy 163.83 107.95) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df9548c-31dc-4bcd-a0df-a746c0d967b2")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 171.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -174,6 +362,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a5a468-6614-4a7f-808d-354e75e5ec25")
+	)
+	(wire
+		(pts
 			(xy 148.59 82.55) (xy 148.59 85.09)
 		)
 		(stroke
@@ -181,6 +379,76 @@
 			(type default)
 		)
 		(uuid "87201797-02a4-4b4e-81cb-8a4f9f48adcc")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90dc77fe-65c1-4df1-b905-3e9c2424f59c")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9612e278-7ed8-43bd-99b5-34211ad541c8")
+	)
+	(wire
+		(pts
+			(xy 208.28 96.52) (xy 205.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7b701d-3abe-4d58-856d-162439b95f8c")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ec8897-19a3-469f-84f2-4406e6334638")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 163.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf3b374-8ca6-471b-ac04-5d777af074d4")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.74) (xy 148.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1855734-2527-4ddd-b44f-70b53c54f8ca")
+	)
+	(wire
+		(pts
+			(xy 205.74 91.44) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e169e6-3293-4cf6-ace6-4f2d3006a8a3")
 	)
 	(wire
 		(pts
@@ -201,6 +469,16 @@
 			(type default)
 		)
 		(uuid "f7ff459a-3757-4024-ad4c-c550bbc9ed5a")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a6c3c7-e508-434b-b23a-4cf26b45524a")
 	)
 	(wire
 		(pts
@@ -233,20 +511,9 @@
 		)
 		(uuid "07238489-71de-4fd1-add9-0533c9061cf3")
 	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 139.7 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ef5e77a-d3af-4799-8489-dcb4021d32fa")
-	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 105.41 108.1455 0)
+		(at 208.28 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -254,17 +521,6 @@
 			(justify left)
 		)
 		(uuid "433cd4b5-70f2-4a01-b4e9-4ab0453c5987")
-	)
-	(hierarchical_label "AKKU_ENA"
-		(shape input)
-		(at 139.7 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44f3db24-b713-404b-9d36-4f0e021b01d4")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -290,14 +546,88 @@
 	)
 	(hierarchical_label "6V"
 		(shape output)
-		(at 105.41 105.41 0)
+		(at 143.51 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bcb3c00b-667f-4d9e-b214-51d1c4810975")
+	)
+	(symbol
+		(lib_id "RobotikV4:Spannungswandler")
+		(at 191.77 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07522e81-e849-475f-ad81-ff9995a7a771")
+		(property "Reference" "PSU1"
+			(at 191.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robotik:Untitled_1"
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "IN+"
+			(uuid "6750c644-3a96-4fab-83b5-4e866dae8351")
+		)
+		(pin "IN-"
+			(uuid "dac9f02e-baf4-48b5-9e4e-06dd33780fa4")
+		)
+		(pin "OUT-"
+			(uuid "273a808a-3d54-4ebd-9b5d-e85be237c4d8")
+		)
+		(pin "OUT+"
+			(uuid "d3d8ff0e-9a1b-4169-a498-857518436735")
+		)
+		(instances
+			(project ""
+				(path "/68a83b6d-2c86-4b88-bf4a-0c6f931ae55b/a697ff1e-a73d-4ca7-bd2c-cce734c02105"
+					(reference "PSU1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

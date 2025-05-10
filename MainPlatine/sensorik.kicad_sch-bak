@@ -2496,29 +2496,27 @@
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
 		(at 151.13 67.31 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0eb25794-63c3-4bdc-a17b-cd78e87338b0")
 		(property "Reference" "J1"
-			(at 149.86 66.0399 0)
+			(at 151.765 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 149.86 68.5799 0)
+			(at 151.765 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JST:JST-XH-07-PACKAGE-LONG-PAD"
@@ -2570,7 +2568,7 @@
 			(uuid "1a29b3c9-6b3b-414c-9b92-88819ea1d13d")
 		)
 		(instances
-			(project "MainPlatine"
+			(project ""
 				(path "/68a83b6d-2c86-4b88-bf4a-0c6f931ae55b/b5cdc453-d330-4215-a4bc-cc85e155168a"
 					(reference "J1")
 					(unit 1)

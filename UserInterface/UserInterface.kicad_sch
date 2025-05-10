@@ -1965,6 +1965,26 @@
 		)
 		(uuid "fb00d7a7-a629-4b2b-afc9-9cf538b17e99")
 	)
+	(label "RE_A"
+		(at 161.29 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "026dc7c4-cf7d-4978-8e1b-11ce774c3904")
+	)
+	(label "BUTTON_1"
+		(at 171.45 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03008cfa-5302-4064-98c1-ba29c1e9384d")
+	)
 	(label "RES"
 		(at 153.67 111.76 270)
 		(effects
@@ -1985,16 +2005,6 @@
 		)
 		(uuid "11b6178c-5cb4-4c9d-82e7-173d7069ac8a")
 	)
-	(label "BUTTON_4"
-		(at 166.37 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16c57419-14d7-4bbd-b3eb-f952d33a021d")
-	)
 	(label "LED_B"
 		(at 223.52 58.42 180)
 		(effects
@@ -2004,6 +2014,16 @@
 			(justify right bottom)
 		)
 		(uuid "1d370ae2-0fe5-4b4f-8ca9-2f550dd6f4b8")
+	)
+	(label "RE_B"
+		(at 163.83 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24658da2-ace2-4b06-ad30-8c13e2b62c43")
 	)
 	(label "BUTTON_4"
 		(at 53.34 72.39 0)
@@ -2025,6 +2045,16 @@
 		)
 		(uuid "2cb576f9-f496-4861-92cf-42bbe844961d")
 	)
+	(label "BUTTON_2"
+		(at 173.99 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32bade91-111d-4e20-9631-f924eefa271f")
+	)
 	(label "RE_SW"
 		(at 101.6 63.5 180)
 		(effects
@@ -2035,37 +2065,27 @@
 		)
 		(uuid "36ed3a82-e5da-4ccb-afd5-ff96930b2930")
 	)
-	(label "RE_A"
-		(at 171.45 111.76 270)
+	(label "BUTTON_4"
+		(at 179.07 111.76 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "54b9ad17-9c4f-498e-b70f-8a356611edcf")
-	)
-	(label "BUTTON_3"
-		(at 163.83 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5902384c-955f-4b14-ae9a-be0624a0843d")
-	)
-	(label "RE_B"
-		(at 173.99 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5add10a3-5b5a-4aa3-90db-9848cb1d1a16")
+		(uuid "49c0023f-178f-409b-ae68-4426009a4dcf")
 	)
 	(label "LED_A"
+		(at 166.37 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e651e21-fdcc-405e-af7f-d705f633f295")
+	)
+	(label "BUTTON_3"
 		(at 176.53 111.76 270)
 		(effects
 			(font
@@ -2073,7 +2093,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "60df4a78-d474-4366-ba07-7bdc5c4cee23")
+		(uuid "55d2f011-13d4-4ad5-979d-201a5d73b812")
 	)
 	(label "BUTTON_1"
 		(at 53.34 60.96 0)
@@ -2105,6 +2125,16 @@
 		)
 		(uuid "78c60a71-b275-415b-8d38-86a32420ee56")
 	)
+	(label "LED_B"
+		(at 168.91 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7944d618-855a-41b6-a632-9df239bd94a6")
+	)
 	(label "MOSI"
 		(at 55.88 106.68 0)
 		(effects
@@ -2114,26 +2144,6 @@
 			(justify left bottom)
 		)
 		(uuid "8538fb57-afd9-487d-b2e1-428eeccb0919")
-	)
-	(label "RE_SW"
-		(at 168.91 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8785dd47-27c8-4954-b303-d55a26a5aeda")
-	)
-	(label "LED_B"
-		(at 179.07 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e42a14c-8112-47a7-9246-9cc8d7cabc5c")
 	)
 	(label "D"
 		(at 55.88 102.87 0)
@@ -2175,16 +2185,6 @@
 		)
 		(uuid "b6f9e86f-b275-491e-bdc9-8a7ce300de79")
 	)
-	(label "BUTTON_1"
-		(at 158.75 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bed7a851-d593-46f8-a82b-5de534945954")
-	)
 	(label "MOSI"
 		(at 146.05 111.76 270)
 		(effects
@@ -2215,16 +2215,6 @@
 		)
 		(uuid "e9564c60-e83f-4f00-b36f-cef6ffb2cd4d")
 	)
-	(label "BUTTON_2"
-		(at 161.29 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f37068a9-2bf1-45a4-95af-3ba04a1c50c9")
-	)
 	(label "BUTTON_3"
 		(at 53.34 68.58 0)
 		(effects
@@ -2234,6 +2224,16 @@
 			(justify left bottom)
 		)
 		(uuid "f3c63ef2-2b5d-4092-b9f8-46e0c4feb70c")
+	)
+	(label "RE_SW"
+		(at 158.75 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fada6c6c-f82d-4bea-8c32-ba2ada8e8097")
 	)
 	(label "RES"
 		(at 55.88 95.25 0)

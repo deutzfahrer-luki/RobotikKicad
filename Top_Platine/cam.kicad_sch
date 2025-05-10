@@ -1182,6 +1182,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffa8f30-3a57-4e41-8e92-1eb64a5a3555")
+	)
+	(wire
+		(pts
 			(xy 153.67 121.92) (xy 152.4 121.92)
 		)
 		(stroke
@@ -1189,6 +1199,16 @@
 			(type default)
 		)
 		(uuid "1a419090-8375-4032-a0ec-7e0cca40f566")
+	)
+	(wire
+		(pts
+			(xy 135.89 85.09) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab6c2d9-5a27-40cc-b54c-068de0adbc7b")
 	)
 	(wire
 		(pts
@@ -1202,13 +1222,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 137.16 93.98)
+			(xy 127 80.01) (xy 127 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aef09ff-9d4b-4579-a294-eaa38a7871a7")
+		(uuid "43e9f9f6-21ee-43c9-a24f-6d9f47a9f16e")
 	)
 	(wire
 		(pts
@@ -1272,6 +1292,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 85.09) (xy 135.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a9e942-433d-4e24-839a-20dd8eab6ce8")
+	)
+	(wire
+		(pts
 			(xy 151.13 121.92) (xy 151.13 119.38)
 		)
 		(stroke
@@ -1319,6 +1349,26 @@
 			(type default)
 		)
 		(uuid "d140c4e0-6cc7-48dc-9671-c7dda8c33362")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 170.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15b227c-d2e2-4909-aec7-a34faf53c6f4")
+	)
+	(wire
+		(pts
+			(xy 167.64 105.41) (xy 170.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba688e5-8364-408d-a96a-303440d8e319")
 	)
 	(wire
 		(pts
@@ -1392,6 +1442,17 @@
 		)
 		(uuid "520e36b8-a046-4887-9618-0153bb7d2202")
 	)
+	(hierarchical_label "INT_{Camera}"
+		(shape input)
+		(at 170.18 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d48c7a1-79a6-480a-a9a3-17c7b69e0941")
+	)
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 170.18 82.55 0)
@@ -1460,7 +1521,7 @@
 	)
 	(hierarchical_label "Interrupt"
 		(shape bidirectional)
-		(at 180.34 69.85 0)
+		(at 170.18 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1479,17 +1540,6 @@
 			(justify right)
 		)
 		(uuid "ef2e5df0-a060-4618-bf49-cbd311a16785")
-	)
-	(hierarchical_label "Reset"
-		(shape input)
-		(at 133.35 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc391944-e72c-4231-becf-786ca561d09f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1701,6 +1751,76 @@
 				)
 				(path "/f9eddfb7-9f4e-4814-b89b-9cecdea203a8/4a0c0bf0-fc48-418f-bd7b-41269867e8f6/7d003288-345a-4c04-ac5a-41602d9002f9"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 127 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc63171c-f406-44de-8fc8-11bbaf936839")
+		(property "Reference" "#PWR09"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e34143a-4f49-4117-a232-c3e44e00fb7c")
+		)
+		(instances
+			(project "Top_Platine"
+				(path "/f9eddfb7-9f4e-4814-b89b-9cecdea203a8/4a0c0bf0-fc48-418f-bd7b-41269867e8f6/6c6966d1-cda9-459c-af60-53d343a22294"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/f9eddfb7-9f4e-4814-b89b-9cecdea203a8/4a0c0bf0-fc48-418f-bd7b-41269867e8f6/7d003288-345a-4c04-ac5a-41602d9002f9"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
