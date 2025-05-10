@@ -1826,16 +1826,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "LEVELSHIFTER!!!\n"
-		(exclude_from_sim no)
-		(at 164.084 156.464 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c65cf69e-38ea-48de-907e-a0dc2ef5af9c")
-	)
 	(wire
 		(pts
 			(xy 85.09 156.21) (xy 90.17 156.21)
