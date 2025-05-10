@@ -1,4 +1,4 @@
-25243746709363087
+25247240578112114
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92295,12 +92295,26 @@ SSOP 0.65
 17
 17
 Robotik
+Spannungswandler_short
+
+
+0
+4
+4
+Robotik
 Untitled
 
 
 0
 8
 8
+Robotik
+Untitled_1
+
+
+0
+4
+4
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
