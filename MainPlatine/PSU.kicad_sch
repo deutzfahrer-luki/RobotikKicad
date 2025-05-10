@@ -631,76 +631,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22082218-5530-49c7-9f0f-549beb050b16")
-		(property "Reference" "R4"
-			(at 151.13 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 151.13 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.812 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "653aec90-b8e7-419f-92ee-41d1657a69ab")
-		)
-		(pin "1"
-			(uuid "8ffaecf6-831c-459e-99fe-14e7242864bb")
-		)
-		(instances
-			(project "MainPlatine"
-				(path "/68a83b6d-2c86-4b88-bf4a-0c6f931ae55b/a697ff1e-a73d-4ca7-bd2c-cce734c02105"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 148.59 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -708,8 +638,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "810aa84a-a1e2-4231-bff6-5c8d40072b9b")
-		(property "Reference" "R3"
+		(uuid "09118941-c628-41d9-9564-c252f60cc4d9")
+		(property "Reference" "RI4"
 			(at 151.13 87.6299 0)
 			(effects
 				(font
@@ -718,7 +648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 151.13 90.1699 0)
 			(effects
 				(font
@@ -727,7 +657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 146.812 88.9 90)
 			(effects
 				(font
@@ -754,16 +684,86 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "6528f023-32e8-4083-8b49-b8d349f0f85e")
-		)
 		(pin "1"
-			(uuid "e84091e4-2800-426c-b712-f9ee838ebe69")
+			(uuid "31ec7428-00f0-46e2-b5ee-66864073c4da")
+		)
+		(pin "2"
+			(uuid "7369fdb6-2e0d-4611-9088-84789367855b")
 		)
 		(instances
 			(project "MainPlatine"
 				(path "/68a83b6d-2c86-4b88-bf4a-0c6f931ae55b/a697ff1e-a73d-4ca7-bd2c-cce734c02105"
-					(reference "R3")
+					(reference "RI4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "312553ef-9307-4f15-a17f-b19be9eaf96e")
+		(property "Reference" "RI3"
+			(at 151.13 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 151.13 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 146.812 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c18978b3-b54c-4b1c-ac87-f5788bcb68b9")
+		)
+		(pin "2"
+			(uuid "51c0d5f9-ee81-44e1-a2e3-5fdc91530f74")
+		)
+		(instances
+			(project "MainPlatine"
+				(path "/68a83b6d-2c86-4b88-bf4a-0c6f931ae55b/a697ff1e-a73d-4ca7-bd2c-cce734c02105"
+					(reference "RI3")
 					(unit 1)
 				)
 			)

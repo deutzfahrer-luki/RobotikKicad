@@ -3052,7 +3052,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 68.58 69.85 180)
+		(at 68.58 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3068,7 +3069,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Socket"
-			(at 69.215 59.69 0)
+			(at 69.215 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +3078,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
-			(at 68.58 69.85 0)
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +3087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 69.85 0)
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,7 +3096,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 68.58 69.85 0)
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
