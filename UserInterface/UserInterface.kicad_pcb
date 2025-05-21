@@ -3192,7 +3192,7 @@
 	(footprint "JST:JST-XH-08-PACKAGE-LONG-PAD"
 		(layer "F.Cu")
 		(uuid "dcc7ffc3-4423-428d-a94b-eaab611aaf0d")
-		(at 71.1 119.996)
+		(at 98.3 119.8)
 		(descr "JST XH Connector Long Pads (Package)\n\nWire to board connector.  Pitch: 2,54 mm, (0.100\")\n\nNumber of pins: 8  Created by Rembrandt Electronics\n\nwww.rembrandtelectronics.com")
 		(property "Reference" "J2"
 			(at -11.755 2.14 90)
@@ -3535,7 +3535,7 @@
 	(footprint "JST:JST-XH-08-PACKAGE-LONG-PAD"
 		(layer "F.Cu")
 		(uuid "f273a4ab-1ca1-44bf-9bd8-500a2aace0db")
-		(at 71.1 127)
+		(at 99.3 126.8215)
 		(descr "JST XH Connector Long Pads (Package)\n\nWire to board connector.  Pitch: 2,54 mm, (0.100\")\n\nNumber of pins: 8  Created by Rembrandt Electronics\n\nwww.rembrandtelectronics.com")
 		(property "Reference" "J3"
 			(at -11.755 2.14 90)
